@@ -1,0 +1,29 @@
+{
+  "css.customData": [
+    {
+      "version": 1.1,
+      "atDirectives": [
+        {
+          "name": "@theme",
+          "description": "Define custom theme values in Tailwind CSS v4",
+          "references": [
+            {
+              "name": "Tailwind CSS v4 Documentation",
+              "url": "https://tailwindcss.com/docs/v4-beta"
+            }
+          ]
+        },
+        {
+          "name": "@apply",
+          "description": "Apply utility classes in CSS",
+          "references": [
+            {
+              "name": "Tailwind CSS Documentation",
+              "url": "https://tailwindcss.com/docs/functions-and-directives#apply"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
