@@ -142,7 +142,7 @@ export const projects: Project[] = [
   description: 'A fast and user-friendly QR code generator for creating and managing scannable links and data.',
   category: 'Web App',
   techStack: ['link auto save', 'React', 'Tailwind'],
-  liveLink: 'https://qr-nest.vercel.app/',
+  liveLink: 'https://qr-nest-app-weld.vercel.app/',
   desktopSupport: true,
   mobileSupport: true,
   fullDescription: 'QR Nest is a utility-driven web application designed to generate and manage QR codes efficiently. It allows users to create QR codes for URLs, text, and other data formats with instant preview and download options. Built with Next.js and Supabase, the application ensures fast performance and reliable data handling. The interface is clean and responsive, making it easy to use across devices while focusing on simplicity and practical functionality.'
