@@ -181,5 +181,16 @@ export const projects: Project[] = [
   desktopSupport: true,
   mobileSupport: false,
   fullDescription: 'T-Strike is an interactive browser game focused on fast-paced shooting mechanics and responsive controls. Players engage in real-time action using keyboard inputs, with smooth animations and dynamic gameplay elements. Built using modern web technologies, the game emphasizes performance, rendering efficiency, and seamless user interaction. It demonstrates the integration of game logic, event handling, and visual feedback within a web-based environment, providing an engaging experience on desktop platforms.'
+},
+{
+  id: 'game-2',
+  title: 'Optiqo',
+  description: 'A visually immersive design training platform focused on color perception, typography precision, and font recognition.',
+  category: 'Game',
+  techStack: ['React', 'Vite', 'CSS', 'Canvas API'],
+  liveLink: 'https://game-optiqo.vercel.app/',
+  desktopSupport: true,
+  mobileSupport: true,
+  fullDescription: 'Optiqo is a modern, interactive web application designed to train visual intelligence in design. It features three core modules: Chromiq (color perception and theory training), Typiq (typography and kerning precision), and Fontiq (font and weight recognition). The platform combines real-time user interaction, smooth UI animations, and a neumorphic design system to create a tactile and engaging experience. Built using React and optimized for performance, Optiqo demonstrates advanced frontend skills including state management, dynamic rendering, interactive game logic, and responsive design, making it a high-quality portfolio project for UI/UX and frontend development.'
 }
 ];
