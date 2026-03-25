@@ -67,6 +67,17 @@ export const projects: Project[] = [
   mobileSupport: true,
   fullDescription: 'This portfolio is designed to create a strong visual impact through creative layouts and animation-driven interactions. It utilizes Framer Motion to deliver fluid transitions and engaging effects, while Tailwind CSS ensures responsiveness and design consistency. Built with TypeScript for maintainability, the project explores a more experimental approach to UI design, combining aesthetics with performance. The result is an immersive and memorable experience that highlights creativity without compromising usability.'
 },
+{
+  id: 'port-5',
+  title: 'Abishek AI/ML Portfolio',
+  description: 'A clean, neumorphism-based portfolio showcasing AI/ML projects, skills, and real-world problem-solving capabilities with a responsive and professional UI.',
+  category: 'Portfolio',
+  techStack: ['React', 'Vite', 'CSS', 'Framer Motion'],
+  liveLink: 'https://portfolio-6-ecru.vercel.app/',
+  desktopSupport: true,
+  mobileSupport: true,
+  fullDescription: 'This portfolio is designed for a final-year AI & Machine Learning student, focusing on clarity, usability, and recruiter-friendly presentation. It uses a neumorphism-based design system with soft shadows and a dark theme to create a modern and professional interface. The project highlights AI/ML applications, including problem-solving projects, structured case studies, and technical skills. Framer Motion is used for subtle animations to enhance user experience without affecting performance. Built with React and Vite, the application is optimized for responsiveness, fast loading, and seamless deployment on platforms like Vercel. The goal is to present technical expertise and project work in a clean, accessible, and impactful manner.'
+},
   // Projects (5)
   {
   id: 'proj-1',
