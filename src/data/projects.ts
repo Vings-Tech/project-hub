@@ -68,8 +68,8 @@ export const projects: Project[] = [
   fullDescription: 'This portfolio is designed to create a strong visual impact through creative layouts and animation-driven interactions. It utilizes Framer Motion to deliver fluid transitions and engaging effects, while Tailwind CSS ensures responsiveness and design consistency. Built with TypeScript for maintainability, the project explores a more experimental approach to UI design, combining aesthetics with performance. The result is an immersive and memorable experience that highlights creativity without compromising usability.'
 },
 {
-  id: 'port-5',
-  title: 'Abishek AI/ML Portfolio',
+  id: 'port-6',
+  title: 'Portfolio 6',
   description: 'A clean, neumorphism-based portfolio showcasing AI/ML projects, skills, and real-world problem-solving capabilities with a responsive and professional UI.',
   category: 'Portfolio',
   techStack: ['React', 'Vite', 'CSS', 'Framer Motion'],
