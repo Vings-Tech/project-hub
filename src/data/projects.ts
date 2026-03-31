@@ -2,7 +2,7 @@ export interface Project {
   id: string;
   title: string;
   description: string;
-  category: 'Portfolio' | 'Project' | 'Web App' | 'Game';
+  category: 'Portfolio' | 'Website' | 'Project' | 'Web App' | 'Game';
   techStack: string[];
   liveLink: string;
   desktopSupport: boolean;
@@ -78,7 +78,32 @@ export const projects: Project[] = [
   mobileSupport: true,
   fullDescription: 'This portfolio is designed for a final-year AI & Machine Learning student, focusing on clarity, usability, and recruiter-friendly presentation. It uses a neumorphism-based design system with soft shadows and a dark theme to create a modern and professional interface. The project highlights AI/ML applications, including problem-solving projects, structured case studies, and technical skills. Framer Motion is used for subtle animations to enhance user experience without affecting performance. Built with React and Vite, the application is optimized for responsiveness, fast loading, and seamless deployment on platforms like Vercel. The goal is to present technical expertise and project work in a clean, accessible, and impactful manner.'
 },
-  // Projects (5)
+{
+  id: 'port-7',
+  title: 'Portfolio 7',
+  description: 'A premium Glassmorphism-based portfolio crafted for a senior software developer with 10+ years of industry experience, showcasing enterprise projects, technical leadership, and large-scale solution architecture.',
+  category: 'Portfolio',
+  techStack: ['React', 'Vite', 'CSS', 'Framer Motion'],
+  liveLink: 'https://portfolio-7-delta.vercel.app/',
+  desktopSupport: true,
+  mobileSupport: true,
+  fullDescription: 'This portfolio is designed for a highly experienced software developer with over 10 years of professional expertise in building scalable applications, leading engineering teams, and delivering enterprise-grade solutions. The design follows a modern neumorphism-based system with soft shadows, refined spacing, and a sophisticated dark theme to create a premium and executive-level visual experience. The portfolio emphasizes career achievements, complex software architectures, production deployments, leadership roles, system design capabilities, and impactful real-world projects delivered across multiple domains. Dedicated sections highlight technical expertise, system scalability, cloud integrations, performance optimization, and cross-functional collaboration experience. Framer Motion is used to provide subtle and polished animations that enhance professionalism without compromising performance. Built with React and Vite, the application is optimized for responsiveness, fast loading, and seamless deployment on platforms like Vercel. The primary goal is to present years of industry experience, technical depth, leadership capability, and proven business impact in a clean, recruiter-friendly, and client-ready format.'
+},
+
+  // Websites (1)
+  {
+  id: 'proj-5',
+  title: 'Nova Tech Company Website',
+  description: 'A modern IT solutions website showcasing services, technologies, and company capabilities with a professional UI.',
+  category: 'Website',
+  techStack: ['Node.js', 'InfluxDB', 'Grafana'],
+  liveLink: 'https://project-5-nt.vercel.app/',
+  desktopSupport: true,
+  mobileSupport: true,
+  fullDescription: 'This project represents a professional company website designed to present IT services, technical expertise, and business solutions in a structured and visually appealing manner. It includes sections such as services, technologies, portfolio, and contact, ensuring clear navigation and user engagement. The application focuses on clean design, responsiveness, and performance, providing a seamless experience across devices while maintaining a strong corporate identity.'
+},
+
+  // Projects (4)
   {
   id: 'proj-1',
   title: 'Supply Chain Management System',
@@ -123,18 +148,7 @@ export const projects: Project[] = [
   mobileSupport: false,
   fullDescription: 'This application is designed to handle core hospital operations by providing a unified platform for patient record management, appointment scheduling, and administrative tasks. It enables efficient data handling and improves coordination between different departments within the hospital. The system includes data visualization features to monitor patient flow and operational metrics, ensuring better decision-making and streamlined healthcare services.'
 },
- {
-  id: 'proj-5',
-  title: 'Nova Tech Company Website',
-  description: 'A modern IT solutions website showcasing services, technologies, and company capabilities with a professional UI.',
-  category: 'Project',
-  techStack: ['Node.js', 'InfluxDB', 'Grafana'],
-  liveLink: 'https://project-5-nt.vercel.app/',
-  desktopSupport: true,
-  mobileSupport: true,
-  fullDescription: 'This project represents a professional company website designed to present IT services, technical expertise, and business solutions in a structured and visually appealing manner. It includes sections such as services, technologies, portfolio, and contact, ensuring clear navigation and user engagement. The application focuses on clean design, responsiveness, and performance, providing a seamless experience across devices while maintaining a strong corporate identity.'
-},
-
+ 
   // Web Apps (4)
   {
   id: 'app-1',

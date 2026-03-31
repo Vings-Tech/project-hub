@@ -4,6 +4,7 @@ import CategorySection from '../components/CategorySection';
 
 export default function HomePage() {
   const portfolios = projects.filter(p => p.category === 'Portfolio');
+  const websites = projects.filter(p => p.category === 'Website');
   const items = projects.filter(p => p.category === 'Project');
   const webApps = projects.filter(p => p.category === 'Web App');
   const games = projects.filter(p => p.category === 'Game');
@@ -47,6 +48,7 @@ export default function HomePage() {
 
       <div className="space-y-24">
         <CategorySection title="Portfolios" projects={portfolios} />
+        <CategorySection title="Websites" projects={websites} />
         <CategorySection title="Projects" projects={items} />
         <CategorySection title="Web Apps" projects={webApps} />
         <CategorySection title="Games" projects={games} />
