@@ -100,7 +100,17 @@ export const projects: Project[] = [
     mobileSupport: true,
     fullDescription: 'This portfolio is designed for a highly experienced software developer with over 10 years of professional expertise in building scalable applications, leading engineering teams, and delivering enterprise-grade solutions. The design follows a modern neumorphism-based system with soft shadows, refined spacing, and a sophisticated dark theme to create a premium and executive-level visual experience. The portfolio emphasizes career achievements, complex software architectures, production deployments, leadership roles, system design capabilities, and impactful real-world projects delivered across multiple domains. Dedicated sections highlight technical expertise, system scalability, cloud integrations, performance optimization, and cross-functional collaboration experience. Framer Motion is used to provide subtle and polished animations that enhance professionalism without compromising performance. Built with React and Vite, the application is optimized for responsiveness, fast loading, and seamless deployment on platforms like Vercel. The primary goal is to present years of industry experience, technical depth, leadership capability, and proven business impact in a clean, recruiter-friendly, and client-ready format.'
   },
-
+  {
+    id: 'port-9',
+    title: 'Portfolio 9',
+    description: 'A premium hybrid Glassmorphism and soft Neumorphic portfolio crafted for a 3+ year experienced Frontend Developer and React.js Specialist, showcasing production-ready projects, technical expertise, and client-facing engineering experience.',
+    category: 'Portfolio',
+    techStack: ['React', 'Vite', 'CSS', 'Framer Motion'],
+    liveLink: 'https://portfolio-9-xi.vercel.app/',
+    desktopSupport: true,
+    mobileSupport: true,
+    fullDescription: 'This portfolio is designed for a 3+ year experienced Frontend Developer and React.js Specialist with strong expertise in responsive web application development, production support, and client-facing technical workflows. The design follows a premium hybrid visual system that combines 70% Glassmorphism and 30% soft Neumorphic depth, creating a modern developer-dashboard aesthetic inspired by VS Code and GitHub dark themes. The portfolio highlights professional experience in React.js development, deployment support, debugging, client management, and technical operations. Dedicated sections such as Home, About, Build & Stack, Experience, and Contact are structured to present technical skills, featured projects, workflow strengths, and career growth in a recruiter-friendly and visually stunning format. Framer Motion is used for smooth section reveals, hover animations, and subtle UI transitions to enhance the premium feel. Built with React and Vite, the application is fully responsive, optimized for performance, and deployment-ready for Vercel. The primary goal is to present technical capability, project execution experience, and professional growth in a clean, modern, and highly professional single-page portfolio.'
+  },
   // Websites (1)
   {
     id: 'proj-5',
